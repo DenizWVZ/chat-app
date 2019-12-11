@@ -69,6 +69,34 @@ h1 {
 .others.open .panel {
   opacity: 1;
 }
+.conversations {
+  display: block;
+  background-color: lavender;
+  border-radius: 1em;
+  text-align: center;
+  margin: 1em;
+  padding: .5em .5em;
+
+}
+
+.contact {
+  display: block;
+  background-color: rgba(255, 240, 245, 0.8);
+  border-radius: 1em;
+  margin: 1em 0em;
+  padding: 1em 1em;
+  border-color: rebeccapurple;
+  box-shadow: .3em .4em 0em 0em rgba(102, 51, 153, 0.164);
+
+}
+
+.contact-icon {
+  display: inline-block;
+  background-color: rgb(163, 132, 173);
+  margin-left: 18em;
+  padding: .5em;
+  border-radius: 1em;
+}
 
 .toggle-others {
   background-color: var(--col-accent3);
